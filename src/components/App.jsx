@@ -14,7 +14,6 @@ export default function App() {
   const onLeaveFeedback = (propertyName) => {
     setState((prevState) => {
       const value = prevState[propertyName];
-      console.log(prevState[propertyName])
       return {
         ...prevState,
         [propertyName]: value + 1
