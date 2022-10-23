@@ -1,0 +1,27 @@
+.buttonsList {
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-collapse: collapse;
+    color: #000000;
+    font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
+    border-radius: 15px;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background: #188ce8;
+}
+
+.buttons:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.buttons:not(:last-child) {
+    margin-right: 10px;
+}
