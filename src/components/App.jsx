@@ -33,7 +33,7 @@ export default function App() {
     }
     const value = state[name];
     const resault = (value / total) * 100;
-    return Number(resault.toFixed(2));
+    return Number(resault.toFixed(1));
   }
 
   const { good, neutral, bad } = state;
